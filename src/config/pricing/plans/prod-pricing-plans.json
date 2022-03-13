@@ -1,0 +1,473 @@
+[
+  {
+    "id": "bronze",
+    "allowDiscounts": false,
+    "isColumnVisible": true,
+    "monthly": {
+      "price": {
+        "USD": 0,
+        "INR": 0,
+        "EUR": 0,
+        "GBP": 0,
+        "MXN": 0,
+        "CAD": 0,
+        "CNY": 0
+      },
+      "planId": null,
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 0,
+        "INR": 0,
+        "EUR": 0,
+        "GBP": 0,
+        "MXN": 0,
+        "CAD": 0,
+        "CNY": 0
+      },
+      "planId": null,
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 0,
+        "INR": 0,
+        "EUR": 0,
+        "GBP": 0,
+        "MXN": 0,
+        "CAD": 0,
+        "CNY": 0
+      },
+      "planId": null,
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 0,
+        "INR": 0,
+        "EUR": 0,
+        "GBP": 0,
+        "MXN": 0,
+        "CAD": 0,
+        "CNY": 0
+      },
+      "planId": null,
+      "days": 365
+    },
+    "name": "Free"
+  },
+  {
+    "id": "gold",
+    "allowDiscounts": true,
+    "isColumnVisible": false,
+    "popular": true,
+    "monthly": {
+      "price": {
+        "USD": 10,
+        "EUR": 10,
+        "INR": 400,
+        "GBP": 10,
+        "MXN": 200,
+        "CAD": 10,
+        "CNY": 60
+      },
+      "planId": "gold_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 600,
+        "GBP": 30,
+        "MXN": 600,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "gold_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 50,
+        "EUR": 50,
+        "INR": 1000,
+        "GBP": 50,
+        "MXN": 1000,
+        "CAD": 50,
+        "CNY": 300
+      },
+      "planId": "gold_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 100,
+        "EUR": 100,
+        "INR": 4000,
+        "GBP": 100,
+        "MXN": 2000,
+        "CAD": 100,
+        "CNY": 600
+      },
+      "planId": "gold_12m",
+      "days": 365
+    },
+    "name": "Gold"
+  },
+  {
+    "id": "lite",
+    "allowDiscounts": true,
+    "isColumnVisible": true,
+    "popular": false,
+    "monthly": {
+      "price": {
+        "USD": 5,
+        "EUR": 5,
+        "INR": 300,
+        "GBP": 5,
+        "MXN": 200,
+        "CAD": 5,
+        "CNY": 33
+      },
+      "planId": "lite_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 5,
+        "EUR": 5,
+        "INR": 200,
+        "GBP": 5,
+        "MXN": 100,
+        "CAD": 5,
+        "CNY": 33
+      },
+      "planId": "lite_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 50,
+        "EUR": 50,
+        "INR": 1000,
+        "GBP": 50,
+        "MXN": 1000,
+        "CAD": 50,
+        "CNY": 300
+      },
+      "planId": "lite_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 50,
+        "EUR": 50,
+        "INR": 3000,
+        "GBP": 50,
+        "MXN": 2000,
+        "CAD": 50,
+        "CNY": 330
+      },
+      "planId": "lite_12m",
+      "days": 365
+    },
+    "name": "Lite"
+  },
+  {
+    "id": "basic",
+    "allowDiscounts": true,
+    "isColumnVisible": true,
+    "popular": true,
+    "monthly": {
+      "price": {
+        "USD": 15,
+        "EUR": 15,
+        "INR": 599,
+        "GBP": 15,
+        "MXN": 299,
+        "CAD": 15,
+        "CNY": 99
+      },
+      "planId": "basic_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 600,
+        "GBP": 30,
+        "MXN": 600,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "basic_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 50,
+        "EUR": 50,
+        "INR": 1000,
+        "GBP": 50,
+        "MXN": 1000,
+        "CAD": 50,
+        "CNY": 300
+      },
+      "planId": "basic_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 150,
+        "EUR": 150,
+        "INR": 5990,
+        "GBP": 150,
+        "MXN": 2990,
+        "CAD": 150,
+        "CNY": 990
+      },
+      "planId": "basic_12m",
+      "days": 365
+    },
+    "name": "Basic"
+  },
+  {
+    "id": "professional",
+    "allowDiscounts": true,
+    "isColumnVisible": true,
+    "popular": false,
+    "monthly": {
+      "price": {
+        "USD": 25,
+        "EUR": 25,
+        "INR": 1099,
+        "GBP": 25,
+        "MXN": 499,
+        "CAD": 25,
+        "CNY": 159
+      },
+      "planId": "professional_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 600,
+        "GBP": 30,
+        "MXN": 600,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "professional_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 50,
+        "EUR": 50,
+        "INR": 1000,
+        "GBP": 50,
+        "MXN": 1000,
+        "CAD": 50,
+        "CNY": 300
+      },
+      "planId": "professional_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 250,
+        "EUR": 250,
+        "INR": 10990,
+        "GBP": 250,
+        "MXN": 4990,
+        "CAD": 250,
+        "CNY": 1590
+      },
+      "planId": "professional_12m",
+      "days": 365
+    },
+    "name": "Professional"
+  },
+  {
+    "id": "enterprise",
+    "allowDiscounts": false,
+    "isColumnVisible": false,
+    "popular": false,
+    "monthly": {
+      "price": {
+        "USD": 10,
+        "EUR": 10,
+        "INR": 400,
+        "GBP": 10,
+        "MXN": 400,
+        "CAD": 10,
+        "CNY": 60
+      },
+      "planId": "enterprise_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 1200,
+        "GBP": 30,
+        "MXN": 1200,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "enterprise_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 60,
+        "EUR": 60,
+        "INR": 2400,
+        "GBP": 60,
+        "MXN": 2400,
+        "CAD": 60,
+        "CNY": 360
+      },
+      "planId": "enterprise_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 100,
+        "EUR": 100,
+        "INR": 4000,
+        "GBP": 100,
+        "MXN": 4000,
+        "CAD": 100,
+        "CNY": 600
+      },
+      "planId": "enterprise_12m",
+      "days": 365
+    },
+    "name": "Enterprise"
+  },
+  {
+    "id": "basic_enterprise",
+    "allowDiscounts": false,
+    "isColumnVisible": false,
+    "popular": false,
+    "monthly": {
+      "price": {
+        "USD": 10,
+        "EUR": 10,
+        "INR": 400,
+        "GBP": 10,
+        "MXN": 400,
+        "CAD": 10,
+        "CNY": 60
+      },
+      "planId": "basic_enterprise_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 1200,
+        "GBP": 30,
+        "MXN": 1200,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "basic_enterprise_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 60,
+        "EUR": 60,
+        "INR": 2400,
+        "GBP": 60,
+        "MXN": 2400,
+        "CAD": 60,
+        "CNY": 360
+      },
+      "planId": "basic_enterprise_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 100,
+        "EUR": 100,
+        "INR": 4000,
+        "GBP": 100,
+        "MXN": 4000,
+        "CAD": 100,
+        "CNY": 600
+      },
+      "planId": "basic_enterprise_12m",
+      "days": 365
+    },
+    "name": "Basic Enterprise"
+  },
+  {
+    "id": "professional_enterprise",
+    "allowDiscounts": false,
+    "isColumnVisible": false,
+    "popular": false,
+    "monthly": {
+      "price": {
+        "USD": 10,
+        "EUR": 10,
+        "INR": 400,
+        "GBP": 10,
+        "MXN": 400,
+        "CAD": 10,
+        "CNY": 60
+      },
+      "planId": "professional_enterprise_1m",
+      "days": 30
+    },
+    "quarterly": {
+      "price": {
+        "USD": 30,
+        "EUR": 30,
+        "INR": 1200,
+        "GBP": 30,
+        "MXN": 1200,
+        "CAD": 30,
+        "CNY": 180
+      },
+      "planId": "professional_enterprise_3m",
+      "days": 90
+    },
+    "half-yearly": {
+      "price": {
+        "USD": 60,
+        "EUR": 60,
+        "INR": 2400,
+        "GBP": 60,
+        "MXN": 2400,
+        "CAD": 60,
+        "CNY": 360
+      },
+      "planId": "professional_enterprise_6m",
+      "days": 180
+    },
+    "annual": {
+      "price": {
+        "USD": 100,
+        "EUR": 100,
+        "INR": 4000,
+        "GBP": 100,
+        "MXN": 4000,
+        "CAD": 100,
+        "CNY": 600
+      },
+      "planId": "professional_enterprise_12m",
+      "days": 365
+    },
+    "name": "Professional Enterprise"
+  }
+]

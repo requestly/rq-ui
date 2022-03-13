@@ -1,0 +1,84 @@
+{
+  "name": "requestly",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Requestly - Lightweight Proxy to Intercept & Modify HTTP(s) requests",
+  "main": "index.js",
+  "scripts": {
+    "build": "craco build",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "start": "craco start",
+    "test": "craco test",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-card": "^1.18.37",
+    "@ant-design/pro-table": "^2.66.4",
+    "@craco/craco": "^6.4.3",
+    "@devtools-ds/navigation": "^1.1.2",
+    "@devtools-ds/table": "^1.1.2",
+    "@sagarsoni/react-hover-observer": "https://github.com/sagarsoni7/react-hover-observer.git",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.24.0",
+    "antd": "^4.18.2",
+    "axios": "^0.26.0",
+    "codemirror": "^5.65.2",
+    "craco-less": "^2.0.0",
+    "firebase": "^9.6.8",
+    "is-empty": "^1.2.0",
+    "js-file-download": "^0.4.12",
+    "jsoneditor": "^9.7.3",
+    "jsoneditor-react": "^3.1.2",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-ace": "^9.5.0",
+    "react-calendly": "^3.0.0",
+    "react-copy-to-clipboard": "5.0.4",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^12.0.4",
+    "react-hotjar": "^5.0.0",
+    "react-hover-observer": "^2.1.1",
+    "react-iconly": "^2.2.5",
+    "react-icons": "^4.3.1",
+    "react-multi-email": "^0.5.3",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "6.2.2",
+    "react-scripts": "^5.0.0",
+    "react-select": "^5.2.2",
+    "react-split": "^2.0.14",
+    "react-text-loop": "^2.3.0",
+    "reactstrap": "9.0.1",
+    "git@github.com:requestly/requestly.git": "file:..",
+    "semver": "^7.3.5",
+    "styled-components": "^5.3.3",
+    "ua-parser-js": "^1.0.2",
+    "underscore": "^1.13.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "node-sass": "^7.0.1",
+    "process": "^0.11.10",
+    "source-map-loader": "^3.0.1",
+    "typescript": "4.6.2"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
+    ]
+  }
+}

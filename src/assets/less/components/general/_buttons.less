@@ -1,0 +1,154 @@
+.ant-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: initial;
+  height: auto;
+  min-height: 40px;
+
+  &.@{class-prefix}-btn-outline {
+    background: @b-0;
+    color: @primary-1;
+
+    &:hover {
+      color: @b-0  !important;
+    }
+  }
+
+  &.@{class-prefix}-btn-gradient {
+    position: relative;
+    color: @b-0;
+    border: none;
+    overflow: hidden;
+
+    >span {
+      position: relative;
+      z-index: 1;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: 0.4s;
+    }
+
+    &:hover {
+      &:after {
+        opacity: 0.8;
+      }
+    }
+
+    &-primary {
+      &:after {
+        background-image: @primary-gradient;
+      }
+    }
+
+    &-secondary {
+      &:after {
+        background-image: @secondary-gradient;
+      }
+    }
+
+    &-danger {
+      &:after {
+        background-image: @danger-gradient;
+      }
+    }
+
+    &-info {
+      &:after {
+        background-image: @info-gradient;
+      }
+    }
+
+    &-success {
+      &:after {
+        background-image: @success-gradient;
+      }
+    }
+
+    &-warning {
+      &:after {
+        background-image: @warning-gradient;
+      }
+    }
+
+    &-dark {
+      &:after {
+        background-image: @dark-gradient;
+      }
+    }
+  }
+}
+
+.ant-btn>.remix-icon {
+  line-height: 1;
+  font-size: 16px;
+}
+
+.ant-btn-text {
+  border: none;
+
+  &.@{class-prefix}-btn-text-bg-none {
+    background: none !important;
+  }
+}
+
+.ant-btn-text:hover,
+.ant-btn-text:focus {
+  color: @b-80;
+  background: @b-10;
+  border-color: transparent;
+}
+
+.ant-btn:hover {
+  border-color: @primary-2;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: @b-0;
+  background: @primary-2;
+  border-color: @primary-2;
+}
+
+.ant-btn-link:hover,
+.ant-btn-link:focus,
+.ant-btn-link:active {
+  border-color: transparent !important;
+}
+
+.ant-btn-ghost {
+  color: @primary-1;
+  border-color: @primary-1;
+}
+
+.ant-btn-circle.ant-btn-sm {
+  min-height: 32px;
+}
+
+.ant-btn-icon-only.ant-btn-sm {
+  min-height: 32px;
+}
+
+.ant-btn-round.ant-btn-sm {
+  min-height: 32px;
+}
+
+.ant-btn-sm {
+  min-height: 32px;
+}
+
+.ant-btn-background-ghost.ant-btn-primary {
+
+  &:hover,
+  &:focus {
+    background-color: @primary-1;
+    color: @b-0  !important;
+  }
+}

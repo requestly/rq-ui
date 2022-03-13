@@ -1,0 +1,101 @@
+.@{class-prefix}-nft-dashboard {
+  .swiper-container {
+    width: 100%;
+  }
+
+  &-product-card-image{
+    height: 32vw;
+
+    @media @lg {
+      height: 47vw;
+    }
+
+    @media @sm {
+      height: 95vw;
+    }
+  }
+
+  &-bid-card-dark-image {
+    @media @sm {
+      opacity: 0.5;
+    }
+  }
+
+  &-bid-card-image {
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    }
+
+    @media @sm {
+      height: 280px !important;
+    }
+  }
+
+  &-tab-row {
+    @media @sm {
+      margin-left: -16px !important;
+      margin-right: -16px !important;
+      padding: 0 16px;
+    }
+  }
+
+  &-own-nft-bg {
+    @media @sm {
+      opacity: 0.3;
+    }
+  }
+
+  &-slider-item {
+    height: 13vw;
+
+    @media screen and (max-width: 1470px) {
+      height: 16vw;
+    }
+
+    @media @lg {
+      height: 19vw;
+    }
+
+    @media @md {
+      height: 30vw;
+    }
+
+    @media @sm {
+      height: 61vw;
+    }
+  }
+
+  &-summary-item {
+    .apexcharts-tooltip {
+      top: 0px !important;
+    }
+
+    .apexcharts-tooltip-title {
+      display: none;
+    }
+
+    .apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+      display: none;
+    }
+
+    .apexcharts-tooltip-text-y-label {
+      display: none;
+    }
+
+    .apexcharts-tooltip-text-y-value {
+      margin-left: 0;
+    }
+
+    .apexcharts-tooltip-y-group {
+      padding-bottom: 1px;
+    }
+  }
+}

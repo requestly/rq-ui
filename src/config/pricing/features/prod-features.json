@@ -1,0 +1,819 @@
+[
+  {
+    "id": "Users",
+    "title": "Number of Users",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Collaboration upto 3 users",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Unlimited Users",
+      "enabled": true,
+      "icon": "uncheck"
+    },
+    "gold": {
+      "title": "Best for Indie Dev",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Best for Team/Company",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Collaboration upto 3 users",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "basic": {
+      "title": "Collaboration upto 10 users",
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Users",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "rules",
+    "title": "Rules",
+    "bronze": {
+      "title": "3 Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "25 Rules (Max 10 Active)",
+      "limit": 25,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "5 Rules",
+      "limit": 5,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "10 Rules",
+      "limit": 10,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "active_rules",
+    "title": "Active Rules",
+    "bronze": {
+      "title": "3 Active Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "10 Active Rules",
+      "limit": 10,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Active Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Active Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "3 Active Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "5 Active Rules",
+      "limit": 5,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Active Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "favourite_rules",
+    "title": "Favourite Rules",
+    "bronze": {
+      "title": "3 Favourite Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "10 Favourite Rules",
+      "limit": 10,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Favourite Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Favourite Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "3 Favourite Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "5 Favourite Rules",
+      "limit": 5,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Favourite Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "rule_pairs",
+    "title": "Rule Pairs",
+    "bronze": {
+      "title": "1 Rule Condition",
+      "limit": 1,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "10 Rule Conditions",
+      "limit": 10,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Rule Conditions",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Rule Conditions",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "3 Rule Conditions",
+      "limit": 3,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "3 Rule Conditions",
+      "limit": 3,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Rule Conditions",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "files",
+    "title": "Files",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "3 Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "10 Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "3 Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "10 Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Mocks",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "groups",
+    "title": "Groups",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Limited Groups",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Limited Groups",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Unlimited Groups",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Groups",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Limited Groups",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "basic": {
+      "title": "Limited Groups",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "professional": {
+      "title": "Unlimited Groups",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "response_rule",
+    "title": "Override API Response",
+    "showInComparisonTable": true,
+    "bronze": {
+      "title": "Override API Response",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Override API Response",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Override API Response",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Override API Response",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Override API Response",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "basic": {
+      "title": "Override API Response",
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Override API Response",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "script_rule",
+    "title": "Insert Script Rule",
+    "showInComparisonTable": true,
+    "bronze": {
+      "title": "Inject Scripts",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Inject Scripts",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Inject Scripts",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Inject Scripts",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Inject Scripts",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "basic": {
+      "title": "Inject Scripts",
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Inject Scripts",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "shared_lists",
+    "title": "Shared Lists",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "3 Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "10 Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "3 Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "10 Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Shared Lists",
+      "limit": 1000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "response_body_character_limit",
+    "title": "AJAX Response Char Limit",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Limited Characters",
+      "limit": 5000,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "script_rule_character_limit",
+    "title": "Script Rule Character Limit",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "500 Script Rule Characters",
+      "limit": 500,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Unlimited Script Rule Characters",
+      "limit": 1000000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "execution_logs",
+    "title": "Execution Logs",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Execution Logs",
+      "limit": 0,
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Execution Logs",
+      "limit": 0,
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Last 25 Execution Logs",
+      "limit": 25,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Last 25 Execution Logs",
+      "limit": 25,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Execution Logs",
+      "limit": 0,
+      "enabled": false,
+      "icon": "frown"
+    },
+    "basic": {
+      "title": "Last 25 Execution Logs",
+      "limit": 25,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Last 25 Execution Logs",
+      "limit": 25,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "remote_rules",
+    "title": "Remote Rules",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Remote Rules",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Remote Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "gold": {
+      "title": "Remote Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Remote Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Remote Rules",
+      "enabled": false,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Remote Rules",
+      "enabled": false,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Remote Rules",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "export",
+    "title": "Export Rules",
+    "showInComparisonTable": true,
+    "bronze": {
+      "title": "Export Rules",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Export Rules",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Export Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Export Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Export Rules",
+      "enabled": false,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Export Rules",
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Export Rules",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "import",
+    "title": "Import Rules",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Import Rules",
+      "limit": 3,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Import Rules",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Import Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Import Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Import Rules",
+      "limit": 5,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Import Rules",
+      "limit": 10,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Import Rules",
+      "limit": 10000,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "trash",
+    "title": "Trash Recovery Limit",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "1 Day",
+      "limit": 1,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "15 Days",
+      "limit": 15,
+      "enabled": true,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "30 Days",
+      "limit": 30,
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "30 Days",
+      "limit": 30,
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "7 Days",
+      "limit": 7,
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "15 Days",
+      "limit": 15,
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "30 Days",
+      "limit": 30,
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "syncing",
+    "title": "Rules & Groups Syncing",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Rules & Groups Syncing",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Rules & Groups Syncing",
+      "enabled": true,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Rules & Groups Syncing",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Rules & Groups Syncing",
+      "enabled": true,
+      "icon": "check"
+    }
+  },
+  {
+    "id": "Customer Support",
+    "title": "Priority Support",
+    "showInComparisonTable": false,
+    "bronze": {
+      "title": "Support",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "silver": {
+      "title": "Priority Support",
+      "enabled": false,
+      "icon": "frown"
+    },
+    "gold": {
+      "title": "Priority Support (Slack)",
+      "enabled": true,
+      "icon": "check"
+    },
+    "enterprise": {
+      "title": "Priority Support (Slack)",
+      "enabled": true,
+      "icon": "check"
+    },
+    "lite": {
+      "title": "Priority Support (Slack)",
+      "enabled": true,
+      "icon": "check"
+    },
+    "basic": {
+      "title": "Priority Support (Slack)",
+      "enabled": true,
+      "icon": "check"
+    },
+    "professional": {
+      "title": "Priority Support (Slack)",
+      "enabled": true,
+      "icon": "check"
+    }
+  }
+]

@@ -1,0 +1,248 @@
+.@{class-prefix}-ecommerce-app {
+  .slick-track {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  // Shop Sidebar
+  &-sidebar {
+    .ant-collapse {
+      border: none;
+      width: 100%;
+
+      .ant-collapse-item {
+        border: none;
+
+        .ant-collapse-header {
+          padding: 0 !important;
+        }
+
+        .ant-collapse-content {
+          border: none;
+
+          .ant-collapse-content-box {
+            padding: 0 !important;
+          }
+        }
+      }
+    }
+
+    &-mobile {
+      display: none;
+
+      &-btn {
+        display: none;
+      }
+    }
+
+    @media @md {
+      flex: 0 0 100% !important;
+      display: none;
+
+      &-mobile {
+        display: block;
+
+        .@{class-prefix}-ecommerce-app-sidebar {
+          display: block;
+
+          padding: 0 !important;
+
+          >.ant-row {
+            border: none;
+            padding: 0 !important;
+          }
+        }
+
+        &-btn {
+          display: block;
+        }
+      }
+    }
+  }
+
+  // Shop Header
+  &-header {
+    @media @sm {
+      &-search {
+        flex: 0 0 100% !important;
+      }
+
+      &-select {
+        flex: 1 0 0 !important;
+      }
+    }
+  }
+
+  // Shop Content
+  &-content {
+    .@{class-prefix}-eCommerceCardOne {
+      img {
+        max-height: auto;
+      }
+
+      .ant-card-body {
+        padding: 16px;
+      }
+
+      .ant-rate {
+        font-size: 15px;
+
+        .ant-rate-star:not(:last-child) {
+          margin-right: 5px;
+        }
+      }
+
+      &-large {
+        .ant-card-body {
+          padding: 32px;
+          min-height: 270px;
+
+          @media @sm {
+            padding: 16px;
+          }
+        }
+      }
+
+      &-wishlist {
+        .ant-card-body {
+          padding: 24px;
+
+          @media @sm {
+            padding: 16px;
+          }
+        }
+      }
+    }
+
+    .ant-list-items {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+
+    .ant-pagination {
+      text-align: right;
+
+      >li {
+        min-width: 32px;
+        height: 32px;
+        line-height: 30px;
+        background: #fff0;
+
+        .ant-pagination-item-link {
+          background: #fff0;
+        }
+
+        .ant-select .ant-select-selector {
+          height: 32px;
+          display: flex;
+          align-items: center;
+        }
+
+        .ant-pagination-options-quick-jumper {
+          height: 100%;
+          line-height: normal;
+
+          input {
+            height: 100%;
+          }
+        }
+      }
+
+      @media @md {
+        text-align: center;
+      }
+    }
+  }
+
+  // Detail
+  &-detail {
+    &-slider {
+      img {
+        max-height: 600px;
+        padding: 10px;
+      }
+
+      .slick-slider {
+        &:nth-child(2) {
+          width: 80%;
+          margin: 0 auto;
+
+          .slick-slide {
+            .@{class-prefix}-slick-slide-item {
+              >div {
+                width: 75px;
+                height: 75px;
+              }
+            }
+
+            &.slick-current {
+              .@{class-prefix}-slick-slide-item {
+                >div {
+                  border-color: @b-80  !important;
+                }
+              }
+            }
+          }
+
+          @media @sm {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    &-other-slider {
+      .slick-slider {
+        margin: 0 -12px;
+
+        .slick-track {
+          width: 100%;
+        }
+
+        .@{class-prefix}-other-slide-prev-arrow,
+        .@{class-prefix}-other-slide-next-arrow {
+          position: absolute;
+          top: -56px;
+          right: 12px;
+          left: auto;
+          bottom: auto;
+        }
+
+        .@{class-prefix}-other-slide-prev-arrow {
+          right: 59px;
+        }
+      }
+    }
+  }
+
+  // Checkout
+  &-checkout {
+    &-item-img {
+      @media @sm {
+        flex: 0 0 100% !important;
+      }
+    }
+
+    &-item-text {
+      @media @sm {
+        flex: 0 0 100% !important;
+      }
+    }
+
+    &-info {
+      @media @sm {
+        .ant-row {
+          justify-content: flex-start !important;
+        }
+      }
+    }
+
+    &-title-table {
+      @media @sm {
+        display: none;
+      }
+    }
+  }
+}

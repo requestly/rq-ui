@@ -1,0 +1,29 @@
+.@{class-prefix}-contact-detail {
+    .ant-card-body {
+        padding: 0;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+
+    @media @sm {
+        .ant-layout{
+            border-radius: 12px;
+            overflow: hidden;
+
+            .ant-layout-sider{
+                flex: none !important;
+                min-width: 100% !important;
+                max-width: 100% !important;
+                width: 100% !important;
+
+                .@{class-prefix}-footer-img{
+                    display: none;
+                }
+            }
+    
+            .ant-layout-content{
+                width: 100% !important;
+            }
+        }
+    }
+}

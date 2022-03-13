@@ -1,0 +1,59 @@
+.@{class-prefix}-ecommerce-detail-card {
+  img {
+    position: absolute;
+    bottom: -50px;
+    right: -70px;
+    max-width: 80%;
+
+    @media @xl {
+      max-width: 100%;
+    }
+
+    @media @lg {
+      max-width: 85%;
+    }
+
+    @media @sm {
+      max-width: 100%;
+    }
+  }
+}
+
+.@{class-prefix}-dashboard-ecommerce-product-slider {
+  .slick-slider {
+    width: 100%;
+  }
+
+  &-button {
+    position: absolute;
+    top: -56px;
+    right: 16px;
+
+    &.prev-button {
+      right: 64px;
+    }
+  }
+}
+
+// RTL
+html[dir="rtl"] {
+  .@{class-prefix}-ecommerce-detail-card {
+    img {
+      left: -70px;
+      right: auto;
+      transform: scale(-1, 1)
+    }
+  }
+
+  .@{class-prefix}-dashboard-ecommerce-product-slider {
+    &-button {
+      left: 64px;
+      right: auto;
+
+      &.prev-button {
+        left: 16px;
+        right: auto;
+      }
+    }
+  }
+}
