@@ -4,6 +4,7 @@
   "private": true,
   "description": "Requestly - Lightweight Proxy to Intercept & Modify HTTP(s) requests",
   "main": "index.js",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "build": "craco build",
     "eject": "react-scripts eject",
